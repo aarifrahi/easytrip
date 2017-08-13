@@ -1,0 +1,120 @@
+<! doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<style>
+
+	  
+</style>
+</head>	
+<body>
+
+	<div id="header">
+	
+		<div class="back">
+		<a href = "index.html"><img src="images/back2.png" width="25" height="25"/></a>
+		</div>
+  
+		<div class="flight">
+		<p>FLIGHT SEARCH</p>
+		</div>
+  
+	</div>
+
+	<div class="col-12 mainflight">
+	
+	<form  action = "my.php" method= "get">
+	</br>
+	<label style="padding-left:5px; padding-top:10px; color:white; font-family:abeatbykai; font-size:12px;">FROM</label></br>
+	
+	<select name="city"  class="b1" >
+<option style="background:rgba(25,86,127,.85);">Type Departure City</option>
+<option style="background:rgba(25,86,127,.85);">Raipur RPR</option>
+<option style="background:rgba(25,86,127,.85);">Mumbai BOM</option>
+<option style="background:rgba(25,86,127,.85);">Chandigarh IXC</option>
+<option style="background:rgba(25,86,127,.85);">Banglore BLR</option>
+<option style="background:rgba(25,86,127,.85);">New Delhi DEL</option>
+<option style="background:rgba(25,86,127,.85);">Indore IDR</option>
+<option style="background:rgba(25,86,127,.85);">Vishakapatnam VTZ</option>
+</select>
+	</br></br>
+	<label style="padding:5px; color:white; font-family:abeatbykai;font-size:12px;">TO</label></br>
+	<select name="to" class="b1">
+<option style="background:rgba(25,86,127,.85);">Type Destination City</option>	
+<option style="background:rgba(25,86,127,.85);">Indore IDR</option>
+<option style="background:rgba(25,86,127,.85);">Mumbai BOM</option>
+<option style="background:rgba(25,86,127,.85);">Chandigarh IXC</option>
+<option style="background:rgba(25,86,127,.85);">Banglore BLR</option>
+<option style="background:rgba(25,86,127,.85);">Raipur RPR</option>
+<option style="background:rgba(25,86,127,.85);">New Delhi DEL</option>
+<option style="background:rgba(25,86,127,.85);">Vishakapatnam VTZ</option>
+</select>
+<br/>
+	<table  style=" margin-left:5px; width:100%;">
+	<tr>
+	<td><p style="padding-top:30px; color:white; font-family:abeatbykai; font-size:12px;">DEPARTURE</p><input type="date" name="from" size="15" maxlength= "15"></td>
+	<td><p style="padding-top:30px; color:white; font-family:abeatbykai; font-size:12px;">RETURN</p><input type="date" name="from" size="15" maxlength= "15"></td>
+	</tr>
+	</table>
+	</br>
+	<label style="padding:5px; color:white; font-family:abeatbykai; font-size:12px;">TRAVELLERS</label></br></br>
+	<label style="padding:5px; color:white; font-family:abeatbykai; font-size:12px;">Adults</label>
+	<select name="adult" class="b2">
+		
+	<option style="background:rgba(25,86,127,.85);">1</option>
+	<option style="background:rgba(25,86,127,.85);">2</option>
+	<option style="background:rgba(25,86,127,.85);">3</option>	
+	<option style="background:rgba(25,86,127,.85);">4</option>
+	<option style="background:rgba(25,86,127,.85);">5</option>
+	<option style="background:rgba(25,86,127,.85);">6</option>
+	<option style="background:rgba(25,86,127,.85);">7</option>
+	<option style="background:rgba(25,86,127,.85);">8</option>
+	<option style="background:rgba(25,86,127,.85);">9</option>
+	</select>
+
+	<label style="padding:5px; color:white; font-family:abeatbykai; font-size:12px;">Children</label>
+	<select name="children" class="b2">
+	<option style="background:rgba(25,86,127,.85);">0</option>	
+	<option style="background:rgba(25,86,127,.85);">1</option>
+	<option style="background:rgba(25,86,127,.85);">2</option>
+	<option style="background:rgba(25,86,127,.85);">3</option>	
+	<option style="background:rgba(25,86,127,.85);">4</option>
+	<option style="background:rgba(25,86,127,.85);">5</option>
+	<option style="background:rgba(25,86,127,.85);">6</option>
+	<option style="background:rgba(25,86,127,.85);">7</option>
+	<option style="background:rgba(25,86,127,.85);">8</option>
+	
+	</select>
+
+	<label style="padding:5px; color:white; font-family:abeatbykai; font-size:12px;">Infants</label>
+	<select name="Infant" class="b2">
+	<option style="background:rgba(25,86,127,.85);">0</option>	
+	<option style="background:rgba(25,86,127,.85);">1</option>
+	<option style="background:rgba(25,86,127,.85);">2</option>
+	<option style="background:rgba(25,86,127,.85);">3</option>	
+	<option style="background:rgba(25,86,127,.85);">4</option>
+	<option style="background:rgba(25,86,127,.85);">5</option>
+	<option style="background:rgba(25,86,127,.85);">6</option>
+	<option style="background:rgba(25,86,127,.85);">7</option>
+	<option style="background:rgba(25,86,127,.85);">8</option>
+	<option style="background:rgba(25,86,127,.85);">9</option>	
+	</select>
+	</br></br>
+	<label style="padding:5px; color:white; font-family:abeatbykai; font-size:12px;">CLASS</label>
+	<select name="Class" class="b2">
+	<option style="background:rgba(25,86,127,.85);">Economy Class</option>	
+	<option style="background:rgba(25,86,127,.85);">Premium Economy</option>
+	<option style="background:rgba(25,86,127,.85);">Business Class</option>
+	</select>
+</form>
+	
+	</div>
+	
+	<div class="srcflight">
+	<a href ="#"><p style="text-align:center">SEARCH</p></a>
+	</div>
+
+
+</body>
+</html>

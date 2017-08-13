@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+body{ 
+      background-image:url("../images/bgd3.jpg");
+	  background-size:cover;
+	  background-repeat:no-repeat;
+     }
+	 
+@font-face {
+font-family: 'abeatbyKai';
+font-style: normal;
+font-weight: normal;
+src: local('abeatbyKai'), url('ABEAKRG.woff') format('woff');
+}
+	 
+html {
+    font-family: "abeatbykai"
+	color:#ffffff;
+	}
+#header {
+    background-color:rgba(16,76,65,0);
+    color: #ffffff;
+    padding: 25px;
+}
+
+
+div.menu1{	position:absolute;
+			top:25px;
+			left:20px;
+			}
+
+div.logo{	position:absolute;
+			top:20px;
+			left:60px;
+			}
+			
+div.bell{	position:absolute;
+			top:20px;
+			left:260px;
+			}
+
+div.login{	position:absolute;
+			top:20px;
+			left:300px;
+			}			
+
+
+div.back {	position:absolute;
+			top:15px;
+			left:20px;
+		 }
+
+div.flight	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+		}
+		
+.mainflight	{position:relative;
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:360px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		}		
+		
+.srcflight	{position:absolute;
+		top:440px;
+		
+		background-color:rgba(16,76,65,1);
+		width:300px;
+		height:35px;
+		
+		color:white;
+		padding-bottom:10px;
+		padding-left:5px;
+		font-family: "abeatbykai"
+		
+		
+		}		
+
+div.hotel	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+		}
+		
+.mainhotel	{position:relative;
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:280px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		}		
+		
+.srchotel	{position:absolute;
+		top:360px;
+		
+		background-color:rgba(16,76,65,1);
+		width:300px;
+		height:35px;
+		
+		color:white;
+		padding-bottom:10px;
+		padding-left:5px;
+		font-family: "abeatbykai"
+		
+		
+		}		
+		
+div.bus	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+		}
+		
+.mainbus	{position:relative;
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:310px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		}	
+		
+		
+.srcbus	{position:absolute;
+		top:410px;
+		
+		background-color:rgba(16,76,65,1);
+		width:300px;
+		height:35px;
+		
+		color:white;
+		padding-bottom:10px;
+		padding-left:5px;
+		font-family: "abeatbykai"
+		
+		
+		}
+
+div.cab	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+		}
+		
+.maincab	{position:relative;
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:320px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		}		
+		
+.srccab	{position:absolute;
+		top:420px;
+		
+		background-color:rgba(16,76,65,1);
+		width:300px;
+		height:35px;
+		
+		color:white;
+		padding-bottom:10px;
+		padding-left:5px;
+		font-family: "abeatbykai"
+		
+		
+		}	
+
+
+div.rail	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+		}
+		
+.mainrail	{position:relative;
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:260px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		color:#ffffff;
+		font-family:abeatbykai;
+		}		
+		
+.srcrail	{position:absolute;
+		top:340px;
+		
+		background-color:rgba(16,76,65,1);
+		width:300px;
+		height:35px;
+		
+		color:white;
+		padding-bottom:10px;
+		padding-left:5px;
+		font-family: "abeatbykai"
+		
+		
+		}			
+h6	{padding:5px;
+	}
+	
+	
+		 
+ .b1 {
+       border: none; 
+	   padding: 5px;
+		margin-left: 5px;	
+	   background: none;
+	   color: white; 
+	   font-family: abeatbykai;
+	   font-size: medium; 
+	   border-bottom: 1px solid white;
+	   
+	   }
+ .b2 {
+       border: none; 
+	   padding: 5px;
+		margin-left: 2px;	
+	   background: none;
+	   color: white; 
+	   font-family: abeatbykai;
+	   font-size: 10px; 
+	   border-bottom: 1px solid white;
+	   
+	   }
+	   
+.mainlogin	{position:relative;
+		
+		background-color:rgba(16,76,65,.85);
+		width:300px;
+		height:460px;
+		
+		padding-top:5px;
+		padding-left:5px;
+		color:#ffffff;
+		font-family:abeatbykai;
+		}
+	   
+div.logo1 {
+			position:absolute;
+			top:150px;
+			left:20px;
+	
+		  }	   
+div.login1	{	position:absolute;
+			top:1px;
+			left:60px;
+			font-family:abeatbykai;
+			font-size:18px;
+}	
+
+div.loginbutton	{position:absolute;
+		top:325px;
+		
+		background-color:red;
+		width:320px;
+		height:40px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		color:white;
+		padding-bottom:15px;
+		
+		font-family: "abeatbykai"
+		
+		
+		}
+
+div.signupbutton	{position:absolute;
+		top:370px;
+		
+		background-color:black;
+		width:320px;
+		height:40px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		color:white;
+		padding-bottom:15px;
+		
+		font-family: "abeatbykai"
+		
+		
+		}	
+
+
+
+div.fbutton	{position:absolute;
+		top:415px;
+		
+		background-color:#3b5998;
+		width:320px;
+		height:40px;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		color:white;
+		pafdding-bottom:15px;
+		
+		font-family: Helvetica Neue;
+		
+		
+		}	
+a {text-decoration:none;
+	color:white;}		
+		
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);		
+
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+@media only screen and (max-width: 560px) {
+
+
+body {
+
+background-image:url("../images/bgm3.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+}
+
+@media only screen and (max-width: 360px) {
+
+
+body {
+
+background-image:url("../images/bgm3.jpg");
+background-size:cover;
+background-attachment:fixed;
+background-repeat:no-repeat;
+}
+}
